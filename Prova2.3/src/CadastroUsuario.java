@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class CadastroUsuario {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IdadeInvalidaException, SalarioInvalidoException {
         Scanner scanner = new Scanner(System.in);
 
         try {
